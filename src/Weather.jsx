@@ -30,7 +30,7 @@ const Weather = ({ temperature}) => {
     return (
         <div  style={{color:'white'}}>
              <h1>
-            {temp}
+            {temp}  {unit}
         </h1>
         <button onClick={changeUnit} style={{fontSize:'1.2rem'}}>Change to {unit === 'C'? 'F': 'C'}</button>
         
